@@ -1,0 +1,16 @@
+.custom-card {
+  background: var(--gradient--vivid-cyan-blue-to-vivid-purple);
+  /* background: url(../assets/services-bg1.png), */
+  /*url(../assets/services-bg2.png) no-repeat center; */
+}
+
+.custom-card img {
+  height: 160px;
+  width: 160px;
+  border: 2px solid var(--secondary-color);
+  padding: 10px;
+  border-radius: 20px !important;
+}
+.skilsection{
+  background: #131313;
+}

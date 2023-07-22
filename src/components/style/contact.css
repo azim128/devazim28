@@ -1,0 +1,19 @@
+.contact-section {
+  background: rgb(33, 34, 34);
+  background: linear-gradient(
+    74deg,
+    rgba(33, 34, 34, 1) 0%,
+    rgba(46, 74, 54, 1) 100%
+  );
+}
+.text-box {
+  outline: none;
+  height: 60px;
+  width: 100%;
+  padding: 0.3rem 0.7rem;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.blog-section {
+  background: rgb(33, 34, 34);
+  background: linear-gradient(
+    74deg,
+    rgba(33, 34, 34, 1) 0%,
+    rgba(46, 74, 54, 1) 100%
+  );
+  /* background: url(../../assets/line-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
