@@ -20,3 +20,14 @@
   --secondary-color: #38bdf8;
 }
 
+
+.logoFont{
+  font-family: 'Marck Script', cursive;
+  font-size: 34px;
+}
+
+/* customNavbar.css */
+.navbar-toggler {
+  border-color: #0dcaf0 !important; /* Change the border color as desired */
+  background-color: #0dcaf0 !important; /* Change the background color as desired */
+}

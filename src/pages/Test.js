@@ -1,40 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from 'react-icons/fa';
 
-const Test = () => {
-   const [posts, setPosts] = useState([]);
-   useEffect(() => {
-      fetch(`${process.env.REACT_APP_APIURL}api/blog/`)
-         .then((response) => response.json())
-         .then((data) => {
-            console.log(data);
-            setPosts(data);
-         })
-         .catch((err) => {
-            console.log(err.message);
-         });
-   }, []);
-
-return (
-   <>
-   <div className="posts-container">
-      {posts.map((post) => {
-         return (
-            <div className="post-card" key={post.id}>
-               <h2 className="post-title">{post.title}</h2>
-               <p className="post-body">{post.body}</p>
-               <div className="button">
-               <div className="delete-btn">{post.title}</div>
-               <div className="delete-btn">
-                  <img src={`http://127.0.0.1:8000${post.image}`} alt={post.image}/>
-                  {post.image}
-                  </div>
-               </div>
-            </div>
-         );
-      })}
-   </div>
-   </>
-)
+const SkillSections = () => {
+  return (
+    <div className="container mt-4">
+      <h2 className="mb-4">Skills</h2>
+      <div className="row">
+        <div className="col-md-3 col-sm-6 mb-4">
+          <div className="text-center">
+            <FaHtml5 size={64} color="#E34F26" />
+            <p>HTML5</p>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-4">
+          <div className="text-center">
+            <FaCss3Alt size={64} color="#2965f1" />
+            <p>CSS3</p>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-4">
+          <div className="text-center">
+            <FaJs size={64} color="#F7DF1E" />
+            <p>JavaScript (ES6+)</p>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-4">
+          <div className="text-center">
+            <FaReact size={64} color="#61DAFB" />
+            <p>React.js</p>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-6 mb-4">
+          <div className="text-center">
+            <FaBootstrap size={64} color="#7952B3" />
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        {/* Add more icons for other skills as needed */}
+      </div>
+    </div>
+  );
 };
 
-export default Test;
+export default SkillSections;

@@ -8,16 +8,16 @@ const Header = () => {
   return (
     <Navbar className="header-nav" expand="lg">
       <Container>
-        <Navbar.Brand className="text-white" href="/">
-          Azim Miah
+        <Navbar.Brand className="text-white font-weight-bold" href="/">
+          <h1 className="logoFont">Azim Miah</h1>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" bg="info" border="info"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/" className="text-white">
               Home
             </Nav.Link>
-            <Nav.Link href="#about" className="text-white">
+            <Nav.Link href="/about" className="text-white">
               About
             </Nav.Link>
             <Nav.Link href="/portfolio" className="text-white">
