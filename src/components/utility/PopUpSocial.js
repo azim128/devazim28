@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiFillFacebook, AiFillHeart, AiFillTwitterSquare, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import { AiFillFacebook, AiFillTwitterSquare, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import { BsDiscord } from "react-icons/bs";
 import { FaTimes } from "react-icons/fa";
 
