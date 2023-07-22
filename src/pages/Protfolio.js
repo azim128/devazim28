@@ -1,5 +1,5 @@
 import React from "react";
-import demo from "../assets/12.jpg";
+import demo from "../assets/12.png";
 import ProtfolioGrid from "../components/utility/ProtfolioGrid";
 import SectionHead from "../components/utility/SectionHead";
 

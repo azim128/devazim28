@@ -15,12 +15,6 @@ const PopUpSocial = () => {
     <div>
       <div className={clicked ? "social-panel-container visible" : "social-panel-container"}>
         <div className="social-panel">
-          <p>
-            Created with <AiFillHeart/> by
-            <a target="_blank" href="https://florin-pop.com" rel="noreferrer">
-              Florin Pop
-            </a>
-          </p>
           <button className="close-btn" onClick={handleClick}>
             <FaTimes/>
           </button>

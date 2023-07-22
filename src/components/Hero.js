@@ -1,5 +1,5 @@
 import React from "react";
-import primg from "../assets/12.jpg";
+import primg from "../assets/12.png";
 import Particle from "./Particle";
 import "./style/hero.css";
 // import img1 from "../assets/line-1.png";
